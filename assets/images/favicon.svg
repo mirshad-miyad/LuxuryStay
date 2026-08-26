@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="diamondBlue" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93C5FD"/>
+      <stop offset="0.45" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="19" y1="13" x2="37" y2="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#EFF6FF"/>
+  <path d="M18 13h28l10 14-24 25L8 27l10-14Z" fill="url(#diamondBlue)"/>
+  <path d="M18 13 8 27h16l-6-14Zm28 0 10 14H40l6-14Z" fill="#60A5FA"/>
+  <path d="M24 27h16L32 52 24 27Z" fill="#1E40AF" opacity="0.78"/>
+  <path d="M18 13h28L40 27H24l-6-14Z" fill="url(#shine)"/>
+  <path d="M8 27h48M18 13l14 39M46 13 32 52M24 27l8-14 8 14" fill="none" stroke="#DBEAFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+</svg>

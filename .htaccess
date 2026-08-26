@@ -1,0 +1,16 @@
+# LuxuryStay Apache config
+Options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Redirect to index if accessing directory
+    DirectoryIndex index.php
+    # Keep configuration, database exports, dependencies, and local tooling private.
+    RewriteRule ^(?:config|database|vendor|lo_profile)(?:/|$) - [F,L,NC]
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

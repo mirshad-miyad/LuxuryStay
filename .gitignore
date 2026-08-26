@@ -1,0 +1,25 @@
+# Environment-specific configuration and secrets
+.env
+.env.*
+!.env.example
+config/config.local.php
+password.txt
+
+# Runtime and operating-system files
+*.log
+*.cache
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.idea/
+.vscode/
+
+# Generated reports and local browser/tool profiles
+lo_profile/
+*.pdf
+
+# User-generated uploads (keep the committed sample assets)
+uploads/profiles/*/
+uploads/profile/*/
